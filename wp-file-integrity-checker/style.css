@@ -1,0 +1,32 @@
+#scan-progress {
+    margin-top: 20px;
+}
+#progress-bar {
+    width: 50%;
+    height: 20px;
+}
+#progress-text {
+    margin-left: 10px;
+}
+.file-list {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+.notice {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid;
+}
+.notice-success {
+    background: #dff0d8;
+    border-color: #d6e9c6;
+}
+.notice-error {
+    background: #f2dede;
+    border-color: #ebccd1;
+}
+.file-list li.hidden {
+    display: none;
+}
